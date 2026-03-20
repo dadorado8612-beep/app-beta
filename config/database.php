@@ -35,10 +35,12 @@ if (!$local_conn){
     echo "Local Succes connection dijo el bicho siiuuuuu !!!";
 }
 // SUPA CONNECTION 
+/*
 $supa_conn = pg_connect($supa_data_connection);
 if (!$supa_conn){
     echo "Error: Unable to connect to supabase database ,"; exit();
 }else{
     echo "<br>Supabase Succes connection dijo MESSI QUE MIRAS BOBO !!!";
 }
+*/
 ?>
