@@ -31,6 +31,7 @@ port = $SUPA_PORT
 $local_conn = pg_connect($local_data_connection);
 if (!$local_conn){
     echo "Error: Unable to connect to local database ,"; exit();
+    
 }else{
     echo "Local Succes connection dijo el bicho siiuuuuu !!!";
 }
